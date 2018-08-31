@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div {
+			border:3px solid red;
+		}
+		.static {
+			position: static;
+		}
+		.relative1 {
+		  position: relative;
+		}
+		.relative2 {
+		  position: relative;
+		  top: 20px;
+		  left: 20px;
+		  background-color: white;
+		  width: 500px;
+		}
+		.fixed {
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			width: 200px;
+			background-color: white;
+		}
+		.absolute1-parent {
+			position: relative;
+		}
+		.absolute1 {
+			position: absolute;
+			top: 200px;
+			left: 300px;
+		}
+		.absolute2 {
+			position: absolute;
+			top: 200px;
+			left: 300px;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<div class="static">
+		this is static
+	</div>
+	<div class="relative1">
+		this is relative1
+	</div>
+	<div class="relative2">
+		this is relative2
+	</div>
+	<div class="fixed"> 
+		this is fixed
+	</div>
+	<div class="absolute1-parent">
+		<div class="absolute1">
+			this absolute1
+		</div>
+	</div>
+	<div class="absolute2">
+			this absolute2
+	</div>
+<div>
+</body>
+</html>
