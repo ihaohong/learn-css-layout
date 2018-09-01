@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div {
+			border: 1px solid blue;
+		}
+		.container {
+			overflow: auto;
+		}
+		.box {
+			float: left;
+			width: 200px;
+			height: 100px;
+			margin: 1em;
+		}
+		.after-box {
+			clear: left;
+		}
+
+		.container2 {
+			margin-top: 50px;
+		}
+		.box2 {
+			display: inline-block;
+			width: 200px;
+			height: 100px;
+			margin: 1em;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			我在浮动
+		</div>
+		<div class="box">
+			我在浮动
+		</div>
+		<div class="box">
+			我在浮动
+		</div>
+		<div class="box">
+			我在浮动
+		</div>
+		<div class="box">
+			我在浮动
+		</div>
+		<div class="box">
+			我在浮动
+		</div>
+		<div class="box">
+			我在浮动
+		</div>
+		<div class="box">
+			我在浮动
+		</div>
+
+		<div class="after-box">
+			我在使用clear
+		</div>
+	</div>
+
+	<div class="container2" >
+		<div class="box2">
+			我在浮动
+		</div>
+		<div class="box2">
+			我在浮动
+		</div>
+		<div class="box2">
+			我在浮动
+		</div>
+		<div class="box2">
+			我在浮动
+		</div>
+		<div class="box2">
+			我在浮动
+		</div>
+		<div class="box2">
+			我在浮动
+		</div>
+		<div>
+			我没使用clear
+		</div>
+	</div>
+</body>
+</html>
