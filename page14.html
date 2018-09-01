@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		nav,section {
+			border: 1px solid blue;
+		}
+		@media screen and (min-width: 600px) {
+
+			nav {
+				float: left;
+				width: 25%;
+			}
+			section {
+				margin-left: 25%;
+			}
+		}
+		@media screen and (max-width: 599px) {
+			li {
+				display: inline-block;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<nav>
+			<ul>
+				<li>one</li>
+				<li>two</li>
+				<li>three</li>
+				<li>four</li>
+				<li>five</li>
+			</ul>
+		</nav>
+		<section >
+			this is section 1
+		</section>
+		<section>
+			this is section 2
+		</section>
+	</div>
+</body>
+</html>
